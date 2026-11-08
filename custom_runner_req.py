@@ -35,6 +35,6 @@ if __name__ == "__main__":
     if tags_to_run:
         behave_args.extend(["--tags", tags_to_run])
 
-    behave_main(behave_args)
+    exit_code = behave_main(behave_args)
     print("Test execution finished. To view locally, run: allure serve reports/allure-results")
     sys.exit(exit_code)
