@@ -1,4 +1,5 @@
 import os
+import sys
 import shutil
 import argparse
 from behave.__main__ import main as behave_main
