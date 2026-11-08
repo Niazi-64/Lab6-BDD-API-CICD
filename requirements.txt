@@ -1,0 +1,6 @@
+behave
+allure-behave
+requests
+pillow
+playwright
+
