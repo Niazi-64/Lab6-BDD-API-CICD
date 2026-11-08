@@ -36,3 +36,4 @@ if __name__ == "__main__":
 
     behave_main(behave_args)
     print("Test execution finished. To view locally, run: allure serve reports/allure-results")
+    sys.exit(exit_code)
